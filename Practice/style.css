@@ -1,0 +1,35 @@
+.p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border:3px;
+    color: tomato;
+    padding: 2rem;
+}
+.p2{
+    background-color: lightblue;
+}
+.p3{
+    text-align: center;
+}
+.p4{
+    border-radius: 20rem;
+}
+.p5{
+    border: dotted;
+}
+.p6{
+    letter-spacing: 3rem;
+}
+.p7{
+    float: left;
+}
+.p8{
+    text-shadow: 2px 2px 5px black;
+}
+img{
+    height:200px;
+    width:300px;
+    border: solid black;
+    border-radius: 1rem;
+    margin: 0 12%;
+}

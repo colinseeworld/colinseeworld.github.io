@@ -1,0 +1,425 @@
+.heading{
+    float: left;
+}
+.heading-2{
+    float: left;
+}
+.title-1{
+    color: white;
+    margin-left: 30%;
+    font-size: 20px;
+    font-family: 'Aldrich', sans-serif;
+    animation: MoveUpDown 8s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+@keyframes MoveUpDown {
+    0%, 100% {bottom: 0px;}
+    50% {bottom: 100px;}
+}
+.title-2{
+    color: #ffd369;
+    margin-left: 35%;
+    font-size: 50px;
+    font-family: 'Italianno', cursive;
+    animation: MoveUpDown 4s linear infinite;
+    position: relative;
+    float: left;
+    left: 0;
+    bottom: 0;
+}
+@keyframes MoveUpDown {
+    0%, 100% {bottom: 0px;}
+    50% {bottom: 100px;}
+}
+.frame{
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+.group{
+    width: 300%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    animation: slide 20s infinite;
+}
+.slide{
+    width: 33.333%;
+    height: 100%;
+    float: left;
+}
+.slide:nth-child(1){
+    background-color: #184d47;
+}
+.slide:nth-child(2){
+    background-color: #19456b;
+}
+.slide:nth-child(3){
+    background-color: #ff7b54;
+}
+@keyframes slide{
+    0% {margin-left: 0%;}
+    30% {margin-left: 0%;}
+    35% {margin-left: -100%;}
+    65% {margin-left: -100%;}
+    70% {margin-left: -200%;}
+    95% {margin-left: -200%;}
+    100% {margin-left: -100%;}
+}
+.container{
+    position: relative;
+}
+.textblock {
+    width: 18%;
+    height: 120px;
+    position: absolute;
+    background-color: gray;
+    margin-left: 7%;
+    margin-top: 26.3%;
+    border: 2px white solid;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1% 1% 0 2%;
+    opacity: 0.7;
+}
+.tesla-pic1{
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container2{
+    width: 90%;
+    height: 350px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+.elon-musk{
+    width: 40%;
+    height: 320px;
+    float: left;
+    margin-left: 4.5%;
+    margin-top: 2.1%;
+    background: linear-gradient(to right, transparent, mistyrose),
+      url("img/elon-musk.png");
+}
+.buy{
+    width: 14%;
+    height: 30px;
+    position: absolute;
+    background-color: gray;
+    margin-left: 8%;
+    margin-top: 6%;
+    border: 2px white solid;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1% 1% 0 2%;
+    opacity: 0.7;
+}
+.tesla-info{
+    width: 40%;
+    height: 265px;
+    color: white;
+    float: left;
+    margin-left: 4.5%;
+    margin-top: 2%;
+    font-size: 20px;
+    padding:5% 3% 0 3%;
+    background-image: linear-gradient(gray, rgb(202, 202, 209));
+    opacity: 0.9;
+}
+.section-part1,.section-part2{
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.left-word{
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+body{
+    background-color: black;
+}
+.tesla-logo-black{
+    border-radius: 90%;
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    margin-top: 3%;
+    animation: logo linear infinite 5s;
+}
+.sell{
+    color: white;
+    margin-top: -1px;
+    margin-left: 15%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+@keyframes logo{
+    0%   {transform: scale(0);}
+    100% {transform: scale(1.5);}
+}
+.mainwindow{
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin-left: 2.2%;
+}
+h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+.model-text{
+    margin-top: -2.5%;
+    color: white;
+    font-size: 40px;
+}
+.car1{
+    width: 78%;
+    margin-left: 11%;
+}
+.car11{
+    width: 77%;
+    margin-left: 10%;
+}
+.car2{
+    width: 92%;
+    margin-left: 7%;
+    margin-top: -2%;
+}
+.car22{
+    width:77%;
+    margin-left: 7%;
+    margin-top: -1%;
+}
+.car3{
+    width: 85%;
+    margin-left: 13%;
+    margin-top: -3%;
+}
+.car33{
+    width: 83%;
+    margin-left: 13%;
+    margin-top: -2.5%;
+}
+.seconds{
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 43%;
+    color: #ffd369;
+}
+.miss-out{
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #ffd369;
+}
+.title-description{
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+.specs{
+    font-size: 70%;
+    font-weight: 100;
+    font-family: 'Rubik', sans-serif;
+}
+.price{
+    font-size: 20px;
+    color: #ffd369;
+}
+i{
+    font-size: 35px;
+    margin-left: 5.5%;
+}
+.icon{
+    width: 22%;
+    margin-left: 37%;
+    margin-top: -0.1%;
+}
+.detail{
+    border: 3px solid #ffd369;
+    border-radius: 21px;
+    padding: 2% 10% 2% 10%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+    margin-left: 24%;
+    margin-top: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.detail:hover{
+    color:black;
+    background-color: #ffd369;
+}
+.modalwindow{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(30, 86, 124, 0.5);
+    pointer-events: none;
+}
+.modalwindow:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.msgblock{
+    position: relative;
+    width:60%;
+    height: 80%;
+    margin-top: 4%;
+    margin-left: 20%;
+}
+.msgblock-car{
+    background-color: black;
+}
+.description{
+    text-align: left;
+    color: white;
+    text-align: center;
+}
+.description-car{
+    text-align: left;
+}
+.car-s{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.range{
+    color:white;
+    margin-top: 4%;
+}
+.car-space{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.car-information{
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+.shopping-car{
+    color: white;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+.line-1{
+    width: 90%;
+    height: 2px;
+    color: lightgrey;
+    background-color: lightgray;
+}
+.line-2{
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: darkgrey;
+    background-color: darkgrey;
+}
+.s-pic{
+    width: 80%;
+    height: 45%;
+    margin-bottom: 3%;
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    background-color: lightgrey;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-align: left;
+}
+.para{
+    position: absolute;  
+    /* position: absolute; make text starting at begining of the page  */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30%;
+}
+.button{
+    color: black;
+    padding: 0.5%;
+    position: relative;
+    float: right;
+    background-color: white;
+    text-decoration: none;
+}
+.confirm-button{
+    border: 3px solid orange;
+    border-radius: 21px;
+    padding: 1% 6% 1% 6%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 120%;
+    color: black;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.confirm-button:hover{
+    color:white;
+    background-color: black;
+}
+.info-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 16%;
+}
+.info-subcontainer{
+    width: 15%;
+    height: 90px;
+    margin-left: 5.8%;
+    margin-top: 10%;
+    color: white;
+    float: left;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.strong{
+    font-family: 'Roboto', sans-serif;
+}
+.line-3{
+    width: 90%;
+}
+.social-media{
+    width: 30%;
+    height: 100px;
+    float: right;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 5%;
+    color: white;
+    text-align: right;
+    word-spacing: 7px;
+}
+.fab{
+    color: white;
+}
+.final-footer{
+    margin-top: 13%;
+    width: 100%;
+    text-align: center;
+}
+.final-part{
+    text-align: center;
+    color: white;
+}
