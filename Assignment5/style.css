@@ -1,0 +1,122 @@
+.mainwindow{
+    width: 30%;
+    height: 400px;
+    border-radius: 5%;
+    float: left;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+.mainwindow1{
+    border: solid 2px #184d47;
+    background-color: #dff3e3;
+}
+.mainwindow2{
+    border: solid 2px #0f3057;
+    background-color: #b2deec;
+}
+.animal{
+    width: 80%;
+    height: 70%;
+    margin: 5% 10% 0 10%;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    margin-top: -0.5%;
+}
+.click{
+    border-radius:3%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90%;
+}
+.btn{
+    margin: 0 30% 0 30%;
+}
+.dog-word{
+    background-color: #184d47;
+}
+.cat-word{
+    background-color: #0f3057;
+}
+.modalwindow1{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(30, 86, 124, 0.5);
+    pointer-events: none;
+}
+.modalwindow1:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalwindow2{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(30, 86, 124, 0.5);
+    pointer-events: none;
+}
+.modalwindow2:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.msgblock{
+    position: relative;
+    width:60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.msgblock-dog{
+    background-color: #dff3e3;
+}
+.msgblock-cat{
+    background-color: #b2deec;
+}
+.description{
+    text-align: center;
+    color: white;
+}
+.description-dog{
+    background-color: #184d47;
+}
+.description-cat{
+    background-color: #0f3057;
+}
+.para{
+    width: 80%;
+    height: 140%;
+    text-align: left;
+    margin: 2% 10% 5% 10%;
+}
+.corgi-pic,.bs-pic{
+    width: 40%;
+    height: 40%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.button-dog{
+    color: white;
+    padding: 1.5%;
+    margin-left: 20%;
+    margin-top: 30%;
+    position: absolute;
+    background-color: #184d47;
+}
+.button-cat{
+    color: #0f3057;
+    background-color: white;
+    position: relative;
+    float: right;
+    padding: 3px;
+}

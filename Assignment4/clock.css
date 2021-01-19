@@ -1,0 +1,59 @@
+.box{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: lightyellow;
+    background-position: center;
+    border: 2px solid yellowgreen;
+    left: 40%;
+    top: 40%;
+    transform: translate(-40%,-40%);
+}
+.clock-img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    background-image: url("img/clockimage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+}
+.minutes{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 50%;
+    top: 44.5%;
+    transform: translate(-50%,-44.5%); 
+    transform-origin: left;
+    animation: minutes linear normal;
+    animation-duration: 10s;
+    transform: rotate(-90deg);
+}
+.hours{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    left: 50%;
+    top: 44.5%;
+    transform: translate(-50%,-44.5%); 
+    transform-origin: left;
+    animation: hours linear normal;
+    animation-fill-mode: forwards;
+    animation-duration: 10s;
+    transform: rotate(0deg);
+}
+
+@keyframes minutes{
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(270deg)}
+} 
+@keyframes hours{
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(30deg)}
+} 
