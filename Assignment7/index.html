@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8 ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Assignment 7</title>
+    <!-- <style media="screen">
+        body {
+            height: 100vh;
+            display: flex;
+            background: linear-gradient(to top right, #e992e4, #e6db9d);
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style> -->
+</head>
+
+<body>
+    <img src="BMI.jpg" alt="BMI" class="BMI">
+    <div id="container">
+        <h1>Friends BMI Competition</h1>
+
+        <div class="subcontainer">
+            <form method="post">
+                <p>Hey! Please enter Lucas weight(in kilograms) and height(in meter) below.</p>
+                <input type="number" name="weight1" id="weight1" placeholder="weight(kg)"></input>
+                <input type="number" name="height1" id="height1" placeholder="height(m)"></input>
+
+                <p>Hey! Please enter John weight(in kilograms) and height(in meter) below.</p>
+                <input type="number" name="weight2" id="weight2" placeholder="weight(kg)"></input>
+                <input type="number" name="height2" id="height2" placeholder="height(m)"></input>
+            </form>
+            <button onclick="getValue();" class="btn">Calculate</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
