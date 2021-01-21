@@ -28,12 +28,12 @@
         <div class="subcontainer">
             <form method="post">
                 <p>Hey! Please enter Lucas weight(in kilograms) and height(in meter) below.</p>
-                <input type="number" name="weight1" id="weight1" placeholder="weight(kg)"></input>
-                <input type="number" name="height1" id="height1" placeholder="height(m)"></input>
+                <input type="number" onfocus="this.value=''" id="weight1" placeholder="weight(kg)"></input>
+                <input type="number" onfocus="this.value=''" id="height1" placeholder="height(m)"></input>
 
                 <p>Hey! Please enter John weight(in kilograms) and height(in meter) below.</p>
-                <input type="number" name="weight2" id="weight2" placeholder="weight(kg)"></input>
-                <input type="number" name="height2" id="height2" placeholder="height(m)"></input>
+                <input type="number" onfocus="this.value=''" id="weight2" placeholder="weight(kg)"></input>
+                <input type="number" onfocus="this.value=''" id="height2" placeholder="height(m)"></input>
             </form>
             <button onclick="getValue();" class="btn">Calculate</button>
         </div>
