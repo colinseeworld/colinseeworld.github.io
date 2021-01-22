@@ -11,8 +11,8 @@ function getAverage() {
     let knicksNumber2 = document.getElementById("knicks-number2").valueAsNumber;
     let knicksNumber3 = document.getElementById("knicks-number3").valueAsNumber;
 
-    let netsAverage = (addNumber(parseInt(netsNumber1), parseInt(netsNumber2), parseInt(netsNumber3)) / 3).toFixed(1)
-    let knicksAverage = (addNumber(parseInt(knicksNumber1), parseInt(knicksNumber2), parseInt(knicksNumber3)) / 3).toFixed(1)
+    let netsAverage = parseFloat((addNumber(parseInt(netsNumber1), parseInt(netsNumber2), parseInt(netsNumber3)) / 3).toFixed(1))
+    let knicksAverage = parseFloat((addNumber(parseInt(knicksNumber1), parseInt(knicksNumber2), parseInt(knicksNumber3)) / 3).toFixed(1))
 
     if (netsAverage > knicksAverage) {
         const summary1 = document.createElement('h2')
