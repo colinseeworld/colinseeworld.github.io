@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8 ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Assignment 8</title>
+
+</head>
+
+<body>
+    <div id="container">
+        <img src="img/score.png" alt="Score" class="score">
+
+        <div class="subcontainer">
+            <form method="post">
+                <h1>Task: Compare Average Score</h1>
+                <p>Hey! Please enter scores for Nets team.</p>
+                <input type="number" id="nets-number1" placeholder="number1"></input>
+                <input type="number" id="nets-number2" placeholder="number2"></input>
+                <input type="number" id="nets-number3" placeholder="number3"></input>
+
+                <p>Hey! Please enter scores for Knicks team.</p>
+                <input type="number" id="knicks-number1" placeholder="number1"></input>
+                <input type="number" id="knicks-number2" placeholder="number2"></input>
+                <input type="number" id="knicks-number3" placeholder="number3"></input>
+            </form>
+            <div class="button-arrange1"><button onclick="getAverage();" class="btn">Calculate</button>
+                <a href="miniIndex.html"><button class="btn">Next</button></a></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8 ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Assignment 8</title>
+
+</head>
+
+<body>
+    <div id="container">
+        <img src="img/score.png" alt="Score" class="score">
+
+        <div class="subcontainer">
+            <form method="post">
+                <h1>Bonus: Compare Score(Score belows 100 doesn't count)</h1>
+                <p>Hey! Please enter scores for Nets team.</p>
+                <input type="number" id="nets-number1" placeholder="number1"></input>
+                <input type="number" id="nets-number2" placeholder="number2"></input>
+                <input type="number" id="nets-number3" placeholder="number3"></input>
+
+                <p>Hey! Please enter scores for Knicks team.</p>
+                <input type="number" id="knicks-number1" placeholder="number1"></input>
+                <input type="number" id="knicks-number2" placeholder="number2"></input>
+                <input type="number" id="knicks-number3" placeholder="number3"></input>
+            </form>
+            <div class="button-arrange2">
+                <a href="averIndex.html"><button class="btn">Previous</button></a>
+                <button onclick="getScore();" class="btn">Calculate</button>
+                <a href="tipIndex.html"><button class="btn">Next</button></a>
+                <br><br><br>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

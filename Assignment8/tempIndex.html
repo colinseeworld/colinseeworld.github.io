@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8 ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Assignment 8</title>
+
+</head>
+
+<body>
+    <div id="container">
+        <img src="https://media.giphy.com/media/26u6dryuZH98z5KuY/giphy.gif" alt="giphy" class="giphy">
+
+        <div class="subcontainer">
+            <form method="post">
+                <h1>Convert Celsius to Fahrenheit</h1>
+                <p>Hey! Please enter the temperature in celsius(°C) degree below.</p>
+                <input type="number" id="celsius" placeholder="celsius"></input>
+            </form>
+            <button onclick="celsiusToFahrenheit();" class="btn">Convert</button>
+            <br><br><br>
+            <form method="post">
+                <h1>Convert Fahrenheit to Celsius</h1>
+                <p>Hey! Please enter the temperature in fahrenheit(°F) degree below.</p>
+                <input type="number" id="fahrenheit" placeholder="fahrenheit"></input>
+            </form>
+            <a href="averIndex.html"><button class="btn">FirstWeb</button></a>
+            <a href="tipIndex.html"><button class="btn">Previous</button></a>
+            <button onclick="fahrenheitToCelsius();" class="btn">Convert</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
