@@ -26,14 +26,11 @@ h1{
     background: orange;
     text-decoration: none;
 }
-.button-arrange1{
-    float: left;
-    width: 150%;
-    margin-left: 1%;
-}
-.button-arrange2{
+.button-arrange{
     float: left;
     width: 150%;
     margin-left: -2%;
 }
+
+
 
